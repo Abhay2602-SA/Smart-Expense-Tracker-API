@@ -21,8 +21,12 @@ Tests run automatically on every push via GitHub Actions
 ## Install
 
 ```bash
+
+environment setup :
 python3 -m venv venv
 source venv/bin/activate   # Windows: venv\Scripts\activate
+
+main step :
 pip install -r requirements.txt
 ```
 
